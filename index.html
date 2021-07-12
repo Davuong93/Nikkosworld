@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="http://fonts.cdnfonts.com/css/beloved-2" rel="stylesheet">
+    <title>Nikko's Home</title>
+    <style>
+    h1{
+          text-align:center;
+          font-family: 'Beloved', sans-serif;
+          background-color: Pink;
+          margin: auto;
+          width: 80%;
+      }
+    .container {
+        display: flex;
+          font-family: 'Beloved' sans-serif;
+          margin: auto;
+          margin-top:10px;
+          width: 80%;
+          height: 100px;
+      }
+    .child {
+        font-family: 'Beloved', sans-serif;
+	background-color: #FFE4C4;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 25%;
+        height: 100%;
+        float: left;
+        text-align: center;
+        line-height: 100px;
+    }
+@media only screen and (max-width: 600px) {
+  .child {width: 100%;}
+  .container{
+  flex-direction: column;
+        }
+      }  
+    </style>
+  </head>
+  <body>
+     <h1> Welcome to Nikko's Home!</h1>
+     <div class="container">
+        <div class="child"><a href="About Me/me.html" target="_blank">About Me</a></div>
+        <div class="child"><a href="Places/index.html" target="_blank">Places!</a></div>
+        <div class="child"><a href="Shows/shows.html" target="_blank">Shows!</a></div>
+        <div class="child"><a href="Goals/goals.html" target="_blank">Goals!</a></div>
+     </div>
+  </body>
+</html>
