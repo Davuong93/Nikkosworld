@@ -1,118 +1,169 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>My Favourite Shows</title>
+    <style>
+      #top-padding {
+        height: 56px;
+        width: 100%;
+      }
+    </style>
+  </head>
 
-<head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.84.0">
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>My Favourite Shows</title>
-  <styles>
-  </styles>
-</head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li>
+                <a class="nav-link Home" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link About Me" href="../About Me/me.html"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Places" href="../Places/places.html"
+                  >Places</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Shows" href="../Shows/shows.html">Shows</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Goals" href="../Goals/goals.html">Goals</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="top-padding"></div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../Images/Demon_Slayer.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Demon Slayer</h5>
+              <p class="card-text">
+                I know this isn't a show, but its an anime. WATCH IT! Its realy
+                good :)
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../Images/Criminal_Minds.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Crininal Minds</h5>
+              <p class="card-text">
+                Criminal Minds has bee nothing but amazing! I love the fact that
+                each case brings on a new perspective of human nature. How life
+                events can trigger humans to think different or cause certain
+                individuals to act in their own accord. So scary! >.<< /p>
+              </p>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <a class="nav-link Home" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link About Me" href="../About Me/me.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Places" href="../Places/places.html">Places</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Shows" href="../Shows/shows.html">Shows</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link Goals" href="../Goals/goals.html">Goals</a>
-            </li>
-          </ul>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-  <main>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../Images/Demon_Slayer.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Demon Slayer</h5>
-          <p class="card-text">I know this isn't a show, but its an anime. WATCH IT! Its realy good :)</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../Images/Game_of_Thrones.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Game of Thrones</h5>
+              <p class="card-text">
+                Who loves seex, gore, medieval knights, dragons, betrayals and
+                most of all WOLVES. Enough said :D
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../Images/Criminal_Minds.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Crininal Minds</h5>
-          <p class="card-text">Criminal Minds has bee nothing but amazing! I love the fact that each case brings on a
-            new perspective of human nature. How life events can trigger humans to think different or cause certain
-            individuals to act in their own accord. So scary! >.<< /p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="../Images/The_Good_Place.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">The Good Place</h5>
+              <p class="card-text">
+                Great Show. Very Cute, goody two shoes kind of a show, but also
+                has very comedic and drama scenes!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../Images/Game_of_Thrones.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Game of Thrones</h5>
-          <p class="card-text">Who loves seex, gore, medieval knights, dragons, betrayals and most of all WOLVES. Enough
-            said :D</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="card mb-3" style="max-width: 540px;">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../Images/The_Good_Place.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">The Good Place</h5>
-          <p class="card-text">Great Show. Very Cute, goody two shoes kind of a show, but also has very comedic and
-            drama scenes!</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="fixed-bottom">Webpage made by David</div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</main>
-</body>
-
+      <div class="fixed-bottom">Webpage made by David</div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
 </html>
